@@ -1,0 +1,12 @@
+.map {
+  margin-top: 5%;
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.mapSize {
+  width: 80%;
+  height: 250px;
+}

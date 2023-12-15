@@ -1,0 +1,50 @@
+.form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+
+.button {
+  background-color: #4472c4;
+  justify-self: center;
+  align-self: center;
+  color: #030408;
+  border: none;
+  border-radius: 5px;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 720px) {
+  .form {
+    width: 80%;
+  }
+  .section {
+    flex-direction: row;
+  }
+  @media screen and (min-width: 1020px) {
+    .form {
+      width: 50%;
+    }
+  }
+}

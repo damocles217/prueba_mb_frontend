@@ -1,0 +1,16 @@
+.td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.tdSeparator {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icongreen {
+  color: green;
+}
+
+.iconred {
+  color: red;
+}
